@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="MT2"
+             x:Class="ToolsHome.Views.Mts2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Alto"/>
+            <Entry x:Name="txtAlto"/>
+            <Label Text="Ancho"/>
+            <Entry x:Name="txtAncho"/>
+            <Button x:Name="btnCalcular"
+                    Text="Calcular"
+                    BackgroundColor="Blue"
+                    Clicked="BtnCalcular_Clicked"/>
+            <Label Text="Respuesta"/>
+            <Label x:Name="lblRespuesta" Text=""/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
